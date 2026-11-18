@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neon Shores — Port Azura</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #07090f; min-height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+  canvas {
+    width: min(100vw, 160vh);
+    height: auto;
+    display: block;
+    background: #0a0e14;
+    box-shadow: 0 0 60px rgba(18, 224, 207, 0.12);
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="800"></canvas>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
